@@ -24,4 +24,4 @@ Trang được sắp xếp theo tuần và ngày để theo dõi tiến độ, c
 
 **Tuần 7:** [Thực hiện kiểm thử. Cấu hình kết nối cơ sở dữ liệu.](1.7-week7/)
 
-**Tuần 8:** Thực hiện kiểm thử lần cuối. Ghi chép quá trình triển khai và chuẩn bị báo cáo cuối cùng.](1.8-week8/)
+**Tuần 8:** [Thực hiện kiểm thử lần cuối. Ghi chép quá trình triển khai và chuẩn bị báo cáo cuối cùng.](1.8-week8/)
