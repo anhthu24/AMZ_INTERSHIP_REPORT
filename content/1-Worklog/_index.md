@@ -7,7 +7,9 @@ pre: " <b> 1. </b> "
 ---
 
 
-This page presents the work log of the Classic Groove project. It documents the 8-week (2-month) journey to complete the build and deployment of an AWS cloud-based web application. The page is organized by week and day to track progress, key tasks, and technical challenges I encountered during my internship.
+This page presents the work log of the Classic Groove project. It documents the 8-week (2-month) journey to complete the build and deployment of a web application on the AWS cloud platform.
+
+The page is organized by week and day to track progress, key tasks, and technical challenges I encountered during my internship.
 
 **Week 1:** [Learn the basics of AWS. Form a team for the project](1.1-week1/)
 
