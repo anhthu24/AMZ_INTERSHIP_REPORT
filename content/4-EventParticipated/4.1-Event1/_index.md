@@ -17,9 +17,9 @@ pre: " <b> 4.1. </b> "
 
 ### Speakers
 
-- **HAI ** – Engineering Manager tại GoTymeX.
-- **PHUC DANG** – Cloud Architect tại GoTymeX.
-- **PHAP NGUYEN** – Cloud Engineer tại VPBank.
+- **HAI BUI** – Engineering Manager GoTymeX.
+- **PHUC DANG** – Cloud Architect GoTymeX.
+- **PHAP NGUYEN** – Cloud Engineer VPBank.
 - **PHAT PHAM** – Software Engineer.
 - **NGHI DANH** – AI Engineer.
 - **PHONG NGUYEN** – Senior Software Engineer.
@@ -82,4 +82,4 @@ Participating in the **“AWS FCAJ Community Day 2026”** is an inspiring start
 #### Some event photos
 *Add your event photos here*  
 
-> Overall, The event not only provided knowledge but also served as an important stepping stone to prepare me for my First Cloud AI Journey, helping me better understand the power of Cloud in solving real-world problems.
+> In summary: The event not only provided knowledge but also served as an important stepping stone to prepare me for my First Cloud AI Journey, helping me better understand the power of Cloud in solving real-world problems.
