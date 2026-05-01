@@ -1,39 +1,27 @@
 ---
 title: "Worklog"
-date: 2024-01-01
+date: 2026-05-01
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+This page presents the work log of the Classic Groove project. It documents the 8-week (2-month) journey to complete the build and deployment of an AWS cloud-based web application. The page is organized by week and day to track progress, key tasks, and technical challenges I encountered during my internship.
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+**Week 1:** [Learn the basics of AWS. Form a team for the project](1.1-week1/)
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
+**Week 2:** [Analyze project requirements and prepare for the project. Learn about AWS services](1.2-week2/)
 
-**Week 2:** [Doing task A...](1.2-week2/)
+**Week 3:** [Create an EC2 instance as required. Install Apache and PHP](1.3-week3/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Week 4:** [Upload project source code to EC2. Test the application using IP addresses](1.4-week4/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Week 5:** [Create Amazon RDS and S3 instances. Import the database for the project. Configure Security Groups](1.5-week5/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 6:** [Fix database connection errors. Upgrade PHP version. Authenticate EC2–RDS connections](1.6-week6/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 7:** [Perform testing. Configure database connections](1.7-week7/)
 
-**Week 7:** [Doing task G...](1.7-week7/)
+**Week 8:** [Perform final testing. Document the deployment process and prepare the final report](1.8-week8/)
 
-**Week 8:** [Doing task H...](1.8-week8/)
-
-**Week 9:** [Doing task I...](1.9-week9/)
-
-**Week 10:** [Doing task L...](1.10-week10/)
-
-**Week 11:** [Doing task M...](1.11-week11/)
-
-**Week 12:** [Doing task N...](1.12-week12/)
