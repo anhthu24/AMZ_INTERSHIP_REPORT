@@ -23,8 +23,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
-          extended: true # Kích hoạt bản extended để hỗ trợ Sass/SCSS
+          hugo-version: '0.123.0' # Sử dụng phiên bản cũ hơn để hỗ trợ getJSON
+          extended: true
 
       - name: Build with Hugo
         run: hugo --minify
