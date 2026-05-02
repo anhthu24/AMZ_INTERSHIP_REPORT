@@ -6,7 +6,9 @@ chapter: false
 ---
 
 # Báo cáo thực tập
+
 ### Thông tin sinh viên:
+
 &emsp; **Họ và tên:** Phạm Anh Thư
 
 &emsp; **Số điện thoại:** 0886749917
@@ -23,9 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 09/03/2026 đến ngày 03/05/2026
 
-![Ảnh đại diện của bạn](/images/avatar.png)
-
-
+<img src="../../images/avatar.png" alt="Diễn giả tại Ngày hội Cộng đồng FCAJ" style="max-height:500px" />
 
 ### Nội dung báo cáo
 

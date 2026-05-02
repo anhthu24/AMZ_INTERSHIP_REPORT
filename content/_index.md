@@ -5,14 +5,13 @@ weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-
 ### Student Information:
+
 &emsp; **Full Name:** Pham Anh Thu
 
-&emsp; **Phone Number:** 0886749917 
+&emsp; **Phone Number:** 0886749917
 
 &emsp; **Email:** anhthu91phuhung@gmail.com
 
@@ -26,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 09/03/2026 to 03/05/2026
 
-![Your profile picture](/images/avatar.png)
+<img src="../../images/avatar.png" alt="Diễn giả tại Ngày hội Cộng đồng FCAJ" style="max-height:500px" />
 
 ### Report Content
 
