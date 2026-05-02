@@ -19,7 +19,7 @@ pre: " <b> 1.1. </b> "
 | 2   | - Họp khởi động chương trình và phổ biến quy định. <br> - Tìm kiếm thành viên và tạo nhóm cho dự án.                                                                                                                                                             | 09/03/2026   | 10/03/2026      | https://rules.fcjuni.com/                         |
 | 3   | - Tìm hiểu về AWS Cloud và các dịch vụ cơ bản (Compute, Storage, Network, Database). <br> - Nghiên cứu tổng quan về mô hình Trách nhiệm chung (Shared Responsibility Model). <br> - Tạo tài khoản IAM AWS Free Tier và thiết lập bảo mật MFA cho tài khoản Root. | 10/03/2026   | 12/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
 
-<br> <br>
+<br>
 <https://cloudjourney.awsstudygroup.com/> |
 | 4 |
 
