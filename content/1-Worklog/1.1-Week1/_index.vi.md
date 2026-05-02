@@ -14,18 +14,20 @@ pre: " <b> 1.1. </b> "
 
 ### Các công việc cần triển khai trong tuần này:
 
-| STT | Công việc                                                                                            | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                    |
-| --- | ---------------------------------------------------------------------------------------------------- | ------------ | --------------- | ------------------------------------------------- |
-| 2   | - Họp khởi động chương trình và phổ biến quy định. <br> - Tìm kiếm thành viên và tạo nhóm cho dự án. | 09/03/2026   | 10/03/2026      | https://rules.fcjuni.com/                         |
-| 3   | - Tìm hiểu về AWS Cloud và các dịch vụ cơ bản.                                                       | 10/03/2026   | 12/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
+| STT | Công việc                                                                                                                                                                                                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                    |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ------------------------------------------------- |
+| 2   | - Họp khởi động chương trình và phổ biến quy định. <br> - Tìm kiếm thành viên và tạo nhóm cho dự án.                                                                                                                                                             | 09/03/2026   | 10/03/2026      | https://rules.fcjuni.com/                         |
+| 3   | - Tìm hiểu về AWS Cloud và các dịch vụ cơ bản (Compute, Storage, Network, Database). <br> - Nghiên cứu tổng quan về mô hình Trách nhiệm chung (Shared Responsibility Model). <br> - Tạo tài khoản IAM AWS Free Tier và thiết lập bảo mật MFA cho tài khoản Root. | 10/03/2026   | 12/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
 
-<br>
- <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo tài khoản IAM AWS đầu tiên và thiết lập MFA.<br>
-- Thực hành tạo User, User Group. | 11/03/2026   | 13/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube <br>
-<https://000001.awsstudygroup.com/> <br>
-<https://000002.awsstudygroup.com/1-aws-free-tier-2025-revolution/> |
-| 5   | - Thực hành quản lý chi phí với Billing and Cost Management. | 13/03/2026   | 14/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube.|
+<br> <br>
+<https://cloudjourney.awsstudygroup.com/> |
+| 4 |
+
+- Tìm hiểu về Global Infrastructure (Region, Availability Zone, Edge Location). <br> - Cài đặt và cấu hình AWS CLI trên máy cá nhân. <br> - Thực hành quản lý định danh với IAM: Tạo User, User Group và áp dụng các Policy có sẵn. <br> - Thiết lập Access Key và Secret Key để chuẩn bị cho việc sử dụng CLI. | 11/03/2026 | 13/03/2026 | First Cloud Journey Bootcamp - 2025 trên Youtube <br><br>
+  <https://000001.awsstudygroup.com/>
+  <br> <br>
+  <https://000002.awsstudygroup.com/1-aws-free-tier-2025-revolution/> |
+  | 5 | - Thực hành quản lý chi phí với Billing and Cost Management. <br> - Thiết lập Budget Alert 0$ và CloudWatch Billing Alarm để kiểm soát hạn mức Free Tier.| 13/03/2026 | 14/03/2026 | First Cloud Journey Bootcamp - 2025 trên Youtube.|
 
 ### Kết quả đạt được tuần 1:
 
