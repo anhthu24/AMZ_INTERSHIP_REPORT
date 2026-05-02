@@ -1,14 +1,14 @@
 ---
 title: "Nhật ký công việc"
-date: 2026-05-01 
+date: 2026-05-01
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Trang này giới thiệu về nhật ký công việc của dự án Classic Groove. Nó ghi lại hành trình 8 tuần ( 2 tháng) để hoàn thành việc xây dựng và triển khai một ứng dụng web trên nền tảng đám mây AWS. 
+Trang này giới thiệu về nhật ký công việc của dự án Classic Groove. Nó ghi lại hành trình 8 tuần ( 2 tháng) để hoàn thành việc xây dựng và triển khai một ứng dụng web trên nền tảng đám mây AWS.
 
-Trang được sắp xếp theo tuần và ngày để theo dõi tiến độ, các nhiệm vụ chính và những thách thức kỹ thuật mà tôi gặp phải trong suốt thời gian thực tập.
+Trang được sắp xếp theo tuần và ngày để theo dõi tiến độ, các nhiệm vụ chính và những thách thức kỹ thuật mà em gặp phải trong suốt thời gian thực tập.
 
 **Tuần 1:** [Tìm hiểu các kiến ​​thức cơ bản về AWS. Lập nhóm làm dự án.](1.1-week1/)
 

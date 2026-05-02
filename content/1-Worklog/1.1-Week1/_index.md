@@ -1,57 +1,29 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: "<b>1.1. </b>"
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Connect and network with members of the First Cloud AI Journey.
+- Learn fundamental knowledge of core AWS services.
+- Search for and form a project team.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks for Implementation:
 
+| No. | Task                                                                                                              | Start Date | Completion Date | Reference Materials                                                                                                                                               |
+| --- | ----------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | - Attend the kick-off meeting and briefing on regulations.<br> - Search for team members and form a project team. | 09/03/2026 | 10/03/2026      | https://rules.fcjuni.com/                                                                                                                                         |
+| 2   | - Research AWS Cloud and core services.                                                                           | 10/03/2026 | 12/03/2026      | First Cloud Journey Bootcamp - 2025 on YouTube. <br> <https://cloudjourney.awsstudygroup.com/>                                                                    |
+| 3   | - Create the first AWS IAM account and set up MFA.<br> - Practice creating Users and User Groups.                 | 11/03/2026 | 13/03/2026      | First Cloud Journey Bootcamp - 2025 on YouTube. <br> <https://000001.awsstudygroup.com/> <br> <https://000002.awsstudygroup.com/1-aws-free-tier-2025-revolution/> |
+| 4   | - Practice cost management with Billing and Cost Management.                                                      | 13/03/2026 | 14/03/2026      | First Cloud Journey Bootcamp - 2025 on YouTube.                                                                                                                   |
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Successfully formed a team consisting of 5 members.
+- Completed the setup of the AWS Root account and configured IAM User accounts with specific permissions.
+- Gained a clear understanding of the internship program regulations.
+- Mastered the concepts of AWS Cloud, AWS Global Infrastructure, and AWS Cost Management.
