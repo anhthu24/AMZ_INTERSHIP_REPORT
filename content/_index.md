@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 09/03/2026 to 03/05/2026
 
-<img src="../../images/avatar.png" alt="Diễn giả tại Ngày hội Cộng đồng FCAJ" style="max-height:500px" />
+<img src="../../images/avatar.png" alt="Ảnh avatar" style="max-height:500px" />
 
 ### Report Content
 

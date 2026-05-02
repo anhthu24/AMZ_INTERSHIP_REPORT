@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 09/03/2026 đến ngày 03/05/2026
 
-<img src="../../images/avatar.png" alt="Diễn giả tại Ngày hội Cộng đồng FCAJ" style="max-height:500px" />
+<img src="../../images/avatar.png" alt="Ảnh avatar" style="max-height:500px" />
 
 ### Nội dung báo cáo
 
