@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 09/03/2026 to 03/05/2026
 
-![Phạm Anh Thư](/images/avatar.png?width=600px)
+![Phạm Anh Thư](/images/avatar.png)
 
 ### Report Content
 
