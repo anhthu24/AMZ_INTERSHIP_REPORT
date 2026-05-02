@@ -1,31 +1,31 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-01 
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “AWS First Cloud AI Journey Community Day 2026”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Kết nối cộng đồng sinh viên với các chuyên gia hàng đầu trong lĩnh vực Điện toán đám mây.
+- Trải nghiệm học tập thực hành thông qua các bản demo ứng dụng công nghệ.
+- Khai mạc chính thức chương trình FCAJ Bootcamp 2026.
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **HAI BUI** – Engineering Manager tại GoTymeX.
+- **PHUC DANG** – Cloud Architect tại GoTymeX.
+- **PHAP NGUYEN** – Cloud Engineer tại VPBank.
+- **PHAT PHAM** – Software Engineer.
+- **NGHI DANH** – AI Engineer.
+- **PHONG NGUYEN** – Senior Software Engineer.
+- **THINH NGUYEN** – DevOps Engineer.
 
-### Nội Dung Nổi Bật
+### Nội Dung Chính
 
 #### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
 
