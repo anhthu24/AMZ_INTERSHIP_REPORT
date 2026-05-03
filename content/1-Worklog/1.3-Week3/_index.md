@@ -18,11 +18,11 @@ pre: " <b> 1.3. </b> "
 
 | No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1 | - Initialize Amazon EC2 instance (Amazon Linux 2023).<br> - Configure Key Pair for secure SSH access via MobaXterm. | 23/03/2026 | 23/03/2026 |
-| 2 | - Set up Security Group: Open ports 80 (HTTP), 443 (HTTPS), and 22 (SSH).<br> | 24/03/2026 | 24/03/2026 | |
-| 3 | - Use MobaXterm to connect to EC2 via SSH.<br> - Update the system.<br> - Install Apache Web Server (httpd). | 25/03/2026 | 25/03/2026 | |
-| 4 | - Install PHP and necessary modules: php-mysqlnd.<br> - Start and set up automatic execution for the httpd service.<br> | 26/03/2026 | 26/03/2026 | |
-| 5 | - Assign permissions to the /var/www/html directory <br> - Check via Public IP | 27/03/2026 | 27/03/2026 | |
+| 1 | - Initialize Amazon EC2 instance (Amazon Linux 2023).<br> - Configure Key Pair for secure SSH access via MobaXterm. | 23/03/2026 | 23/03/2026 | First Cloud Journey Bootcamp - 2025 on YouTube.|
+| 2 | - Set up Security Group: Open ports 80 (HTTP), 443 (HTTPS), and 22 (SSH).<br> | 24/03/2026 | 24/03/2026 |First Cloud Journey Bootcamp - 2025 on YouTube. |
+| 3 | - Use MobaXterm to connect to EC2 via SSH.<br> - Update the system.<br> - Install Apache Web Server (httpd). | 25/03/2026 | 25/03/2026 | First Cloud Journey Bootcamp - 2025 on YouTube.|
+| 4 | - Install PHP and necessary modules: php-mysqlnd.<br> - Start and set up automatic execution for the httpd service.<br> | 26/03/2026 | 26/03/2026 | <https://cloudjourney.awsstudygroup.com/>|
+| 5 | - Assign permissions to the /var/www/html directory <br> - Check via Public IP | 27/03/2026 | 27/03/2026 | <https://cloudjourney.awsstudygroup.com/>|
 
 ### Week 3 Achievements:
 

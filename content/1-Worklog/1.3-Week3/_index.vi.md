@@ -18,11 +18,11 @@ pre: " <b> 1.3. </b> "
 
 | STT | Công việc                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | -------------- |
-| 1   | - Khởi tạo Amazon EC2 instance (Amazon Linux 2023).<br> - Cấu hình Key Pair để truy cập SSH an toàn qua MobaXterm. | 23/03/2026   | 23/03/2026      |
-| 2   | - Thiết lập Security Group: Mở cổng 80 (HTTP), 443 (HTTPS) và 22 (SSH).<br>                                        | 24/03/2026   | 24/03/2026      |                |
-| 3   | - Sử dụng MobaXterm kết nối SSH vào EC2.<br> - Cập nhật hệ thống <br>- Cài đặt Apache Web Server (httpd).          | 25/03/2026   | 25/03/2026      |                |
-| 4   | - Cài đặt PHP và module cần thiết: php-mysqlnd <br> - Khởi động và thiết lập tự động chạy cho dịch vụ httpd <br>   | 26/03/2026   | 26/03/2026      |                |
-| 5   | - Phân quyền thư mục /var/www/html <br> - Kiểm tra qua Public IP                                                   | 27/03/2026   | 27/03/2026      |                |
+| 1   | - Khởi tạo Amazon EC2 instance (Amazon Linux 2023).<br> - Cấu hình Key Pair để truy cập SSH an toàn qua MobaXterm. | 23/03/2026   | 23/03/2026      | First Cloud Journey Bootcamp - 2025 on YouTube.|
+| 2   | - Thiết lập Security Group: Mở cổng 80 (HTTP), 443 (HTTPS) và 22 (SSH).<br>                                        | 24/03/2026   | 24/03/2026      |    First Cloud Journey Bootcamp - 2025 on YouTube.            |
+| 3   | - Sử dụng MobaXterm kết nối SSH vào EC2.<br> - Cập nhật hệ thống <br>- Cài đặt Apache Web Server (httpd).          | 25/03/2026   | 25/03/2026      |     First Cloud Journey Bootcamp - 2025 on YouTube.           |
+| 4   | - Cài đặt PHP và module cần thiết: php-mysqlnd <br> - Khởi động và thiết lập tự động chạy cho dịch vụ httpd <br>   | 26/03/2026   | 26/03/2026      |      <https://cloudjourney.awsstudygroup.com/>          |
+| 5   | - Phân quyền thư mục /var/www/html <br> - Kiểm tra qua Public IP                                                   | 27/03/2026   | 27/03/2026      |      <https://cloudjourney.awsstudygroup.com/>         |
 
 ### Kết quả đạt được tuần 3:
 
