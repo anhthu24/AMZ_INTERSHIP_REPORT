@@ -24,7 +24,7 @@ pre: " <b> .1. </b> "
 - **PHONG NGUYEN** – Senior Software Engineer.
 - **THINH NGUYEN** – DevOps Engineer.
 
-<img src="../../images/event-1.jpg" alt="Speakers in FCAJ Community Day" style="max-height:850px" />
+<img src="https://github.com/anhthu24/AMZ_INTERSHIP_REPORT/raw/main/static/images/event-1.jpg" alt="Speakers in FCAJ Community Day" style="max-height:850px" />
 
 ### Main Content
 
