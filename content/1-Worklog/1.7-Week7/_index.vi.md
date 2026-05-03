@@ -27,7 +27,7 @@ pre: " <b> 1.7. </b> "
   - File cấu hình được tổ chức khoa học, dễ dàng bảo trì và thay đổi thông số khi cần thiết.
 
 - Kết quả kiểm thử khả quan:
-  - 00% các chức năng chính (Xem sản phẩm, Đăng nhập, Gửi form) hoạt động chính xác trên môi trường thực tế.
+  - Các chức năng chính (Xem sản phẩm, Đăng nhập, Gửi form) hoạt động chính xác trên môi trường thực tế.
   - Các lỗi về định dạng dữ liệu giữa PHP và MySQL đã được đồng bộ hóa.
 
 - Tối ưu hóa trải nghiệm người dùng:

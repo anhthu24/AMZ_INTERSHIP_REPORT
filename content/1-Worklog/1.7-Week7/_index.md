@@ -27,7 +27,7 @@ pre: " <b> 1.7. </b> "
   - Configuration files are organized scientifically, making maintenance and parameter changes easy when needed.
 
 - Positive test results:
-  - 100% of main functions (View products, Login, Submit form) work correctly in the real-world environment.
+  - The main functions (View products, Login, Submit form) work correctly in the real-world environment.
 
   - Data formatting errors between PHP and MySQL have been synchronized.
 
