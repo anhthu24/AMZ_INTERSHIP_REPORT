@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 09/03/2026 đến ngày 03/05/2026
 
-![Phạm Anh Thư](./images/avatar.png)
+![Phạm Anh Thư](../images/avatar.png)
 
 ### Nội dung báo cáo
 
