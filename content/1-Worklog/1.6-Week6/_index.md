@@ -8,46 +8,38 @@ pre: " <b> 1.6. </b> "
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Completely resolve connection errors between the web application and the database.
+- Upgrade the PHP version to ensure compatibility and security for the project.
+- Validate and optimize data flow between EC2 and RDS.
 
 ### Tasks to be carried out this week:
-| No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| No. | Task                                                                                                                                                                              | Start Date | Completion Date | Reference Material |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 1   | - Check system logs to identify the cause of the "Database Connection Failed" error <br> <br> - Review the Endpoint, Username, and Password information in the configuration file | 13/04/2026 | 13/04/2026      |
+
+| 2 | - Upgrade the PHP version to match the new connection library <br> <br> - Install the php-mysqli extension | 14/04/2026 | 14/04/2026 | PHP Official Documentation |
+
+| 3 | - Check the Security Group's Inbound Rules to ensure the IP is not blocked <br><br> - Practice: Write a standalone PHP script to test the connection and authenticate access to RDS <br><br> - Handle errors related to character encoding (UTF-8) when displaying data <br> | 15/04/2026 | 16/04/2026 | Internal Debugging Guide |
+
+| 4 | - Test all CRUD (Create, Read, Update, Delete) functions on the web interface <br><br>- Ensure the application runs smoothly with the newly upgraded PHP version <br> | 17/04/2026 | 17/04/2026 | |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Completely resolve database connection errors:
+  - The application now accesses data stably, eliminating sudden connection drops.
 
-* Successfully created and configured an AWS Free Tier account.
+  - Understand how to handle errors based on MySQL and PHP error codes.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Upgrade the execution environment:
+  - The system runs on the latest PHP version, increasing processing performance and security.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+  - Extended modules are correctly configured, providing good support for data interaction.
 
-* Used AWS CLI to perform basic operations such as:
+- Successfully authenticate EC2-RDS connections:
+  - Establish a process for checking bidirectional connections between the Web Server and the DB Server.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Enhance troubleshooting skills:
+  - Know how to read Apache and MySQL logs.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Master the skill of debugging PHP source code when migrating between different environment versions.

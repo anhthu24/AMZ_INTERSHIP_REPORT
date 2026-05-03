@@ -1,15 +1,10 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 8 Objectives:
 
 * Connect and get acquainted with members of First Cloud Journey.
@@ -18,40 +13,28 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - Final testing of the entire project business flow <br> <br> Security review: Re-check IAM Users, Security Groups and disable unused services | 27/04/2026 | 27/04/2026 | |
 
+| 2 | - Detailed documentation of configuration parameters: EC2 Instance Type, RDS Endpoint, S3 Bucket Policy <br> - Take screenshots illustrating the setup steps on the AWS Console to write the report <br> | 28/04/2026 | 28/04/2026 | |
+
+| 3 | - Summarize the results against the initial goals of the FCAJ program <br> - Write a report on the difficulties encountered and how they were resolved | 29/04/2026 | 29/04/2026 | |
+
+| 5 | - Practice: Final check of the report and document links <br>- Team meeting to summarize the project and share lessons learned <br> | 30/04/2026 | 01/05/2026 | |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Project completion on schedule:
 
-* Successfully created and configured an AWS Free Tier account.
+  - The "Classic Groove" application runs stably on AWS infrastructure with all EC2, RDS, and S3 components.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - The final testing process did not detect any critical errors.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Systematization of professional knowledge:
 
-* Used AWS CLI to perform basic operations such as:
+  - Successfully packaged a detailed deployment document, making future project handover or expansion easier.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+  - Deep understanding of the lifecycle of a real-world Cloud project.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Overall assessment:
+
+  - Gained key skills in Cloud Infrastructure.

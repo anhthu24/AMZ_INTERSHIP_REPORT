@@ -1,56 +1,37 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 ### Mục tiêu tuần 8:
 
-- Kết nối, làm quen với các thành viên trong First Cloud Journey.
-- Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Perform final end-to-end testing before writing the report.
+
+- Systematize the entire AWS infrastructure deployment and configuration process.
+
+- Complete the internship report and prepare the final presentation materials.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| STT | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP <br>                    | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| STT | Công việc                                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 1   | - Kiểm thử lần cuối toàn bộ luồng nghiệp vụ của dự án <br> <br> Rà soát bảo mật: Kiểm tra lại các IAM User, Security Group và tắt các dịch vụ không sử dụng               | 27/04/20265  | 27/04/2026      |                |
+| 2   | - Ghi chép chi tiết thông số cấu hình: EC2 Instance Type, RDS Endpoint, S3 Bucket Policy <br>- Chụp ảnh minh họa các bước thiết lập trên AWS Console để viết báo cáo <br> | 28/04/2026   | 28/04/2026      |                |
+| 3   | - Tổng hợp kết quả thực hiện so với mục tiêu ban đầu của chương trình FCAJ <br> - Viết báo cáo về các khó khăn đã gặp phải và cách giải quyết                             | 29/04/2026   | 29/04/2026      |                |
+| 5   | - Thực hành: Kiểm tra lại lần cuối báo cáo, các liên kết tài liệu <br>- Họp nhóm tổng kết dự án và chia sẻ bài học kinh nghiệm <br>                                       | 30/04/2026   | 01/05/2026      |                |
 
 ### Kết quả đạt được tuần 8:
 
-- Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản:
-  - Compute
-  - Storage
-  - Networking
-  - Database
-  - ...
+- Hoàn tất dự án đúng tiến độ:
+  - Ứng dụng "Classic Groove" vận hành ổn định trên hạ tầng AWS với đầy đủ các thành phần EC2, RDS, và S3.
+  - Quy trình kiểm thử cuối cùng không phát hiện lỗi nghiêm trọng.
 
-- Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hệ thống hóa kiến thức chuyên môn:
+  - Đóng gói thành công bộ tài liệu triển khai chi tiết, giúp việc bàn giao hoặc mở rộng dự án trong tương lai trở nên dễ dàng.
+  - Hiểu sâu sắc về vòng đời triển khai một dự án Cloud thực tế
 
-- Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-- Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  - Access Key
-  - Secret Key
-  - Region mặc định
-  - ...
-
-- Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-  - Kiểm tra thông tin tài khoản & cấu hình
-  - Lấy danh sách region
-  - Xem dịch vụ EC2
-  - Tạo và quản lý key pair
-  - Kiểm tra thông tin dịch vụ đang chạy
-  - ...
-
-- Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-- ...
+- Đánh giá chung:
+  - Đã đạt được các kỹ năng quan trọng về Cloud Infrastructure

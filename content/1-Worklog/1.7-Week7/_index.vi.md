@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Kiểm thử toàn diện các chức năng của ứng dụng trên môi trường Cloud.
+
+- Đảm bảo tính toàn vẹn của dữ liệu khi tương tác qua lại giữa EC2 và RDS.
 
 ### Các công việc cần triển khai trong tuần này:
-| STT | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| STT | Công việc                                                                                                                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu            |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ------------------------- |
+| 1   | - Thực hiện kiểm thử đơn vị (Unit Testing) cho các hàm kết nối cơ sở dữ liệu                                                                                                 | 20/04/2026   | 20/04/2026      |                           |
+| 2   | - Cấu hình lại file connect.php sử dụng biến môi trường <br>- Tối ưu hóa câu lệnh truy vấn SQL để giảm tải cho RDS instance <br>                                             | 21/04/2026   | 21/04/2026      | PHP Best Practices        |
+| 3   | - Kiểm thử hiệu năng cơ bản: Tốc độ phản hồi của trang web khi truy vấn các bảng có dữ liệu lớn <br><br> - Kiểm tra hiển thị tài nguyên tĩnh từ S3 đã cấu hình trước đó <br> | 23/04/2026   | 23/04/2026      |                           |
+| 4   | - Thực hành: Mô phỏng các tình huống lỗi (ngắt kết nối DB, sai thông tin đăng nhập) để kiểm tra khả năng xử lý ngoại lệ (Exception Handling) của ứng dụng <br>               | 24/04/2026   | 24/04/2026      | AWS Study Group Resources |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hoàn thiện cấu hình kết nối cơ sở dữ liệu:
+  - File cấu hình được tổ chức khoa học, dễ dàng bảo trì và thay đổi thông số khi cần thiết.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Kết quả kiểm thử khả quan:
+  - 00% các chức năng chính (Xem sản phẩm, Đăng nhập, Gửi form) hoạt động chính xác trên môi trường thực tế.
+  - Các lỗi về định dạng dữ liệu giữa PHP và MySQL đã được đồng bộ hóa.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Tối ưu hóa trải nghiệm người dùng:
+  - Tốc độ tải trang ổn định nhờ việc tối ưu hóa các truy vấn SQL và tận dụng kết nối từ EC2 đến RDS trong cùng một hạ tầng mạng nội bộ.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Sẵn sàng cho giai đoạn hoàn thiện dự án:
+  - Hệ thống đã đạt trạng thái ổn định (Stable), sẵn sàng cho việc nghiệm thu và báo cáo cuối kỳ vào tuần tới.

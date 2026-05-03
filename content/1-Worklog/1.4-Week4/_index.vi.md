@@ -16,9 +16,9 @@ pre: " <b> 1.4. </b> "
 
 | STT | Công việc                                                                                                                                              | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                 |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ------------------------------ |
-| 1   | - Chuẩn bị mã nguồn dự án (nén file hoặc đẩy lên GitHub) <br> <br> - Kết nối MobaXterm và sử dụng SFTP để tải mã nguồn lên thư mục tạm trên EC2 <br>   | 30/03/2026   | 30/03/2026      |
+| 1   | - Chuẩn bị mã nguồn dự án (nén file hoặc đẩy lên GitHub) <br> <br> - Kết nối MobaXterm và sử dụng SFTP để tải mã nguồn lên thư mục tạm trên EC2 <br>   | 30/03/2026   | 30/03/2026      |First Cloud Journey Bootcamp - 2025 on YouTube.|
 | 2   | - Di chuyển mã nguồn vào thư mục gốc của Apache (/var/www/html) <br> <br>- Phân quyền sở hữu (chown) và quyền truy cập (chmod) cho các file dự án <br> | 31/03/2026   | 31/03/2026      |                                |
-| 3   | - Điều chỉnh các tham số cấu hình hệ thống phù hợp với yêu cầu của mã nguồn PHP                                                                        | 01/04/2026   | 01/04/2026      | AWS Documentation - App Deploy |
+| 3   | - Điều chỉnh các tham số cấu hình hệ thống phù hợp với yêu cầu của mã nguồn PHP                                                                        | 01/04/2026   | 01/04/2026      | AWS Documentation |
 | 4   | - Truy cập ứng dụng trực tiếp qua Public IP của instance <br>- Kiểm tra các liên kết, hình ảnh và logic cơ bản của giao diện front-end                 | 02/04/2026   | 02/04/2026      |                                |
 | 5   | - **Thực hành:** <br>&emsp; + Kiểm tra log lỗi của Apache (error_log) để xử lý các vấn đề phát sinh <br>&emsp; + Sao lưu cấu hình                      | 03/04/2026   | 03/04/2026      |                                |
 
