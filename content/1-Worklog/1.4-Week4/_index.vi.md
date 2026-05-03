@@ -1,59 +1,41 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Chuyển giao mã nguồn dự án từ môi trường phát triển lên máy chủ EC2.
+- Cấu hình chi tiết Web Server để nhận diện bộ mã nguồn mới.
+- Kiểm thử khả năng truy cập và vận hành của ứng dụng thông qua Public IP.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| STT | Công việc                                                                                                                                              | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                 |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ------------------------------ |
+| 1   | - Chuẩn bị mã nguồn dự án (nén file hoặc đẩy lên GitHub) <br> <br> - Kết nối MobaXterm và sử dụng SFTP để tải mã nguồn lên thư mục tạm trên EC2 <br>   | 30/03/2026   | 30/03/2026      |
+| 2   | - Di chuyển mã nguồn vào thư mục gốc của Apache (/var/www/html) <br> <br>- Phân quyền sở hữu (chown) và quyền truy cập (chmod) cho các file dự án <br> | 31/03/2026   | 31/03/2026      |                                |
+| 3   | - Điều chỉnh các tham số cấu hình hệ thống phù hợp với yêu cầu của mã nguồn PHP                                                                        | 01/04/2026   | 01/04/2026      | AWS Documentation - App Deploy |
+| 4   | - Truy cập ứng dụng trực tiếp qua Public IP của instance <br>- Kiểm tra các liên kết, hình ảnh và logic cơ bản của giao diện front-end                 | 02/04/2026   | 02/04/2026      |                                |
+| 5   | - **Thực hành:** <br>&emsp; + Kiểm tra log lỗi của Apache (error_log) để xử lý các vấn đề phát sinh <br>&emsp; + Sao lưu cấu hình                      | 03/04/2026   | 03/04/2026      |                                |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Triển khai thành công mã nguồn dự án lên môi trường Cloud (EC2).
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Quản lý dữ liệu trên máy chủ hiệu quả:
+  - Sử dụng thành thạo giao thức SFTP để truyền tải dữ liệu.
+  - Nắm vững kỹ thuật phân quyền thư mục trên Linux để đảm bảo tính bảo mật và khả năng thực thi của web server.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Hoàn thành giai đoạn kiểm thử sơ bộ:
+  - Ứng dụng hiển thị đúng giao diện thông qua Public IP của instance.
+  - Xác định và xử lý kịp thời các lỗi phát sinh trong quá trình di chuyển từ môi trường Local lên Server (lỗi đường dẫn, lỗi quyền truy cập).
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Làm quen với quy trình CI/CD thủ công:
+  - Hiểu luồng đưa một sản phẩm phần mềm từ máy cá nhân lên Internet.
+  - Biết cách đọc và phân tích Log để chẩn đoán trạng thái hệ thống.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hệ thống sẵn sàng cho việc kết nối Database ở các giai đoạn tiếp theo.

@@ -13,7 +13,7 @@ pre: " <b> 1.2. </b> "
 
 - In-depth study of core AWS services (EC2, S3, RDS) to support project implementation.
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 1 | - Finalize the project topic <br> - Analyze functional and non-functional requirements. | 16/03/2026 | 17/03/2026 | |
 | 2 | - Design the system architecture diagram. <br> - Analyze the AWS services needed for the project. | 17/03/2026 | 18/03/2026 | First Cloud Journey Bootcamp - 2025 on YouTube. |

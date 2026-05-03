@@ -1,57 +1,51 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Initialize Amazon S3 object storage services and Amazon RDS relational databases.
+
+- Deploy the project's data structure to the Cloud system.
+
+- Establish a secure connection between the Web Server (EC2) and the Database (RDS) via a Security Group.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| No. | Task                                                                                                                                     | Start Date | Completion Date | Reference Material |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 1   | - Initialize Amazon S3 Bucket <br> <br> - Configure access permissions and upload static resources (images, videos) of the project to S3 | 06/04/2026 | 06/04/2026      |
+
+| 2 | - Initialize Amazon RDS (MySQL engine)<br> <br> - Select a configuration suitable for the Free Tier limit <br><br> - Set the Database Name, Master Username, and Password parameters | 07/04/2026 | 07/04/2026 | AWS Documentation - RDS User Guide |
+
+| 3 | - Configure Security Group for RDS: <br>&emsp; + Allow Inbound port 3306 from EC2 Security Group <br><br>- Check the connection from EC2 instance to RDS endpoint | 08/04/2026 | 08/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+
+| 4 | - Use the mysql command or admin tool to connect <br> <br> Import the classic-groove.sql data file into the Amazon RDS instance <br> | 10/04/2026 | 10/04/2026 | Internal Project Docs |
+
+| 5 | - Change the configuration in the connect.php or dataProvider.php file to point to the RDS Endpoint <br><br>- Check the ability to access data on the web interface via Public IP | 09/04/2026 | 09/04/2026 | |
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Completing the storage and data infrastructure for the project:
+  - Amazon S3 is ready to store static resources, reducing the load on EC2.
 
-* Successfully created and configured an AWS Free Tier account.
+  - Amazon RDS (MySQL) is stable and completely replaces the local database.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Managing system security using a multi-layered model:
+  - Applying the principle of least privilege when configuring Security Groups for the database.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+  - Understanding how AWS components (EC2 and RDS) communicate with each other within the same VPC.
 
-* Used AWS CLI to perform basic operations such as:
+- Successful data deployment:
+  - The entire table structure and sample data have been imported into RDS without errors.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+  - The web application can now query and display actual data from the cloud database.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Enhancing administration skills:
+  - Mastering the configuration of application connection files (db_config).
+
+  - Knowing how to handle common connection issues (Connection Timeout, Access Denied) between AWS services.

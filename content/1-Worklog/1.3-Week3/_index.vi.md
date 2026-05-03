@@ -16,7 +16,7 @@ pre: " <b> 1.3. </b> "
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Công việc                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | -------------- |
 | 1   | - Khởi tạo Amazon EC2 instance (Amazon Linux 2023).<br> - Cấu hình Key Pair để truy cập SSH an toàn qua MobaXterm. | 23/03/2026   | 23/03/2026      |
 | 2   | - Thiết lập Security Group: Mở cổng 80 (HTTP), 443 (HTTPS) và 22 (SSH).<br>                                        | 24/03/2026   | 24/03/2026      |                |

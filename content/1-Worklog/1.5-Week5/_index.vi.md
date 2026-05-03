@@ -1,59 +1,40 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Khởi tạo dịch vụ lưu trữ đối tượng Amazon S3 và cơ sở dữ liệu quan hệ Amazon RDS.
+- Triển khai cấu trúc dữ liệu của dự án lên hệ thống Cloud.
+- Thiết lập kết nối an toàn giữa Web Server (EC2) và Database (RDS) thông qua Security Group.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| STT | Công việc                                                                                                                                                                | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------- |
+| 1   | - Khởi tạo Amazon S3 Bucket <br> <br> - Cấu hình quyền truy cập và tải các tài nguyên tĩnh (hình ảnh, video) của dự án lên S3                                            | 06/04/2026   | 06/04/2026      |
+| 2   | - Khởi tạo Amazon RDS (MySQL engine)<br> <br> - Lựa chọn cấu hình phù hợp với hạn mức Free Tier <br><br> - Thiết lập thông số Database Name, Master Username và Password | 07/04/2026   | 07/04/2026      | AWS Documentation - RDS User Guide        |
+| 3   | - Cấu hình Security Group cho RDS: <br>&emsp; + Cho phép Inbound port 3306 từ Security Group của EC2 <br><br>- Kiểm tra kết nối từ EC2 instance tới RDS endpoint         | 08/04/2026   | 08/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Sử dụng lệnh mysql hoặc công cụ quản trị để kết nối <br> <br> Nhập file dữ liệu classic-groove.sql vào Amazon RDS instance <br>                                        | 10/04/2026   | 10/04/2026      | Internal Project Docs                     |
+| 5   | - Thay đổi cấu hình trong file connect.php hoặc dataProvider.php để trỏ về RDS Endpoint <br><br>- Kiểm tra khả năng truy xuất dữ liệu trên giao diện web qua Public IP   | 09/04/2026   | 09/04/2026      |  |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hoàn thiện hạ tầng lưu trữ và dữ liệu cho dự án:
+  - Amazon S3 đã sẵn sàng để lưu trữ tài nguyên tĩnh, giúp giảm tải cho EC2.
+  - Amazon RDS (MySQL) hoạt động ổn định, thay thế hoàn toàn cho database local.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Quản lý bảo mật hệ thống theo mô hình nhiều lớp:
+  - Áp dụng nguyên tắc đặc quyền tối thiểu (Least Privilege) khi cấu hình Security Group cho Database.
+  - Hiểu rõ cách các thành phần trong AWS (EC2 và RDS) giao tiếp với nhau trong cùng một VPC.
+- Triển khai dữ liệu thành công:
+  - Toàn bộ cấu trúc bảng và dữ liệu mẫu đã được import vào RDS mà không có lỗi.
+  - Ứng dụng web đã có thể truy vấn và hiển thị dữ liệu thực tế từ database trên Cloud.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Nâng cao kỹ năng quản trị:
+  - Thành thạo việc cấu hình các tệp tin kết nối ứng dụng (db_config).
+  - Biết cách xử lý các sự cố thường gặp về kết nối (Connection Timeout, Access Denied) giữa các dịch vụ AWS.

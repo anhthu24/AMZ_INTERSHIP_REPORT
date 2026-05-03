@@ -1,57 +1,50 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Transfer the project source code from the development environment to the EC2 server.
+
+- Configure the Web Server in detail to recognize the new source code.
+
+- Test the accessibility and functionality of the application using the Public IP.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| No. | Task                                                                                                                                                                                | Start Date | Completion Date | Reference Material |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 1   | - Prepare the project source code (compress files or upload to GitHub) <br> <br> - Connect to MobaXterm and use SFTP to upload the source code to a temporary directory on EC2 <br> | 30/03/2026 | 30/03/2026      |
+
+| 2 | - Move the source code to the Apache root directory (/var/www/html) <br> <br> - Assign ownership (chown) and access permissions (chmod) to the project files <br> | 31/03/2026 | 31/03/2026 | |
+
+| 3 | - Adjust system configuration parameters to suit the PHP source code requirements | 01/04/2026 | 01/04/2026 | AWS Documentation - App Deploy |
+
+| 4 | - Access the application directly via the instance's Public IP <br>- Check the links, images, and basic logic of the front-end interface | 02/04/2026 | 02/04/2026 | |
+
+| 5 | - **Practice:** <br>&emsp; + Check Apache error logs (error_log) to handle any issues <br>&emsp; + Back up the configuration | 03/04/2026 | 03/04/2026 | |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Successfully deployed the project's source code to a Cloud environment (EC2).
 
-* Successfully created and configured an AWS Free Tier account.
+- Efficiently managed data on the server:
+  - Proficiently used the SFTP protocol for data transfer.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Mastered directory permission techniques on Linux to ensure the security and performance of the web server.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Completed the preliminary testing phase:
+  - The application displayed the correct interface via the instance's Public IP.
 
-* Used AWS CLI to perform basic operations such as:
+  - Identified and promptly resolved errors arising during migration from the Local environment to the Server (path errors, access errors).
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Familiarized with manual CI/CD procedures:
+  - Understands the process of deploying a software product from a personal computer to the Internet.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Knows how to read and analyze logs to diagnose system status.
+
+- The system is ready for database connection in subsequent stages.

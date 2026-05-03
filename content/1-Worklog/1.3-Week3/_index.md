@@ -16,7 +16,7 @@ pre: " <b> 1.3. </b> "
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 1 | - Initialize Amazon EC2 instance (Amazon Linux 2023).<br> - Configure Key Pair for secure SSH access via MobaXterm. | 23/03/2026 | 23/03/2026 |
 | 2 | - Set up Security Group: Open ports 80 (HTTP), 443 (HTTPS), and 22 (SSH).<br> | 24/03/2026 | 24/03/2026 | |

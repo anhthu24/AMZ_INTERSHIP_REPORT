@@ -15,7 +15,7 @@ pre: " <b> 1.2. </b> "
 - Tìm hiểu sâu về các dịch vụ AWS cốt lõi (EC2, S3, RDS) để phục vụ cho việc triển khai dự án.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| STT | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 1   | - Chốt đề tài dự án <br> - Phân tích yêu cầu chức năng (Functional Requirements) và phi chức năng (Non-functional Requirements).                                                                                             | 16/03/2026 |	17/03/2026      | |
 | 2   | - Thiết kế sơ đồ kiến trúc hệ thống (System Architecture Diagram). <br>- Phân tích các dịch vụ AWS cần thiết cho dự án.                                             | 17/03/2026   | 18/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
