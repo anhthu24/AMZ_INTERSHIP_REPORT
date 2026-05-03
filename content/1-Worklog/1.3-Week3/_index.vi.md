@@ -1,59 +1,41 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Khởi tạo và cấu hình instance Amazon EC2 chạy hệ điều hành Linux.
+
+- Cấu hình mạng và bảo mật (Security Group) để cho phép truy cập web.
+
+- Cài đặt và cấu hình môi trường Web Server (Apache) và ngôn ngữ lập trình (PHP).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | -------------- |
+| 1   | - Khởi tạo Amazon EC2 instance (Amazon Linux 2023).<br> - Cấu hình Key Pair để truy cập SSH an toàn qua MobaXterm. | 23/03/2026   | 23/03/2026      |
+| 2   | - Thiết lập Security Group: Mở cổng 80 (HTTP), 443 (HTTPS) và 22 (SSH).<br>                                        | 24/03/2026   | 24/03/2026      |                |
+| 3   | - Sử dụng MobaXterm kết nối SSH vào EC2.<br> - Cập nhật hệ thống <br>- Cài đặt Apache Web Server (httpd).          | 25/03/2026   | 25/03/2026      |                |
+| 4   | - Cài đặt PHP và module cần thiết: php-mysqlnd <br> - Khởi động và thiết lập tự động chạy cho dịch vụ httpd <br>   | 26/03/2026   | 26/03/2026      |                |
+| 5   | - Phân quyền thư mục /var/www/html <br> - Kiểm tra qua Public IP                                                   | 27/03/2026   | 27/03/2026      |                |
 
 ### Kết quả đạt được tuần 3:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Khởi tạo thành công máy chủ EC2 hoạt động ổn định trên hạ tầng AWS.
+- Quản lý truy cập và bảo mật server hiệu quả thông qua:
+  - Security Group (Inbound/Outbound rules)
+  - Key Pair (Private/Public key)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Thiết lập hoàn tất môi trường Web Server
+  - Cài đặt và vận hành Apache Web Server.
+  - Cấu hình môi trường thực thi PHP để chuẩn bị chạy mã nguồn dự án.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Thành thạo các kỹ năng quản trị server từ xa:
+  - Sử dụng terminal qua MobaXterm.
+  - Kiểm soát quyền truy cập thư mục web (permissions).
+- Đảm bảo hệ thống có thể tiếp nhận các request HTTP từ internet và xử lý mã PHP chính xác.

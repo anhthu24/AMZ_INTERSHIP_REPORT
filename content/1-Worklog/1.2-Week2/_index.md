@@ -1,57 +1,33 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Detailed analysis of project requirements and topic selection.
 
+- Outline of the proposed system architecture.
+
+- In-depth study of core AWS services (EC2, S3, RDS) to support project implementation.
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - Finalize the project topic <br> - Analyze functional and non-functional requirements. | 16/03/2026 | 17/03/2026 | |
+| 2 | - Design the system architecture diagram. <br> - Analyze the AWS services needed for the project. | 17/03/2026 | 18/03/2026 | First Cloud Journey Bootcamp - 2025 on YouTube. |
+| 3 | - In-depth study of AWS Compute (EC2: Instance types, Security Groups).<br> - Study of AWS Storage (S3: Buckets, Object Storage, Static Web Hosting). | 18/03/2026 | 19/03/2026 | First Cloud Journey Bootcamp - 2025 on YouTube. |
+| 4 | - Learn about AWS Database (RDS: Multi-AZ, Read Replicas, Security) - Connect and test the connection between the application and the RDS instance. | March 19, 2026 | March 19, 2026 | First Cloud Journey Bootcamp - 2025 on YouTube. |
+| 5 | - Compile documentation for preparing and setting up the development environment (VS Code, Git, MobaXterm). | March 20, 2026 | March 20, 2026 | First Cloud Journey Bootcamp - 2025 on YouTube. |
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- The project topic has been agreed upon and the preliminary system architecture sketch has been completed.
 
-* Successfully created and configured an AWS Free Tier account.
+- A thorough understanding of how EC2, S3, and RDS work and their roles in the web application model has been achieved.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- The technical working environment has been established, ready for the implementation phase (Coding/Deployment).
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- The project requirements flow has been grasped, and the necessary technologies have been identified.

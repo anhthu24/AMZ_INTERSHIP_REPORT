@@ -1,59 +1,36 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Phân tích chi tiết yêu cầu dự án và lựa chọn đề tài.
+
+- Phác thảo kiến trúc hệ thống dự kiến.
+
+- Tìm hiểu sâu về các dịch vụ AWS cốt lõi (EC2, S3, RDS) để phục vụ cho việc triển khai dự án.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Chốt đề tài dự án <br> - Phân tích yêu cầu chức năng (Functional Requirements) và phi chức năng (Non-functional Requirements).                                                                                             | 16/03/2026 |	17/03/2026      | |
+| 2   | - Thiết kế sơ đồ kiến trúc hệ thống (System Architecture Diagram). <br>- Phân tích các dịch vụ AWS cần thiết cho dự án.                                             | 17/03/2026   | 18/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
+| 3   | - Nghiên cứu sâu về AWS Compute (EC2: Instance types, Security Groups).<br> - Nghiên cứu về AWS Storage (S3: Buckets, Object Storage, Static Web Hosting).| 18/03/2026  |19/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube.|
+| 4   | - Tìm hiểu về AWS Database (RDS: Multi-AZ, Read Replicas, Security)<br> - Kết nối và kiểm tra kết nối giữa ứng dụng và RDS instance.                 | 19/03/2026   | 19/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
+| 5   | - Tổng hợp tài liệu chuẩn bị, setup môi trường phát triển (VS Code, Git, MobaXterm).                                                                                      | 20/03/2026   | 20/03/2026      | First Cloud Journey Bootcamp - 2025 trên Youtube. |
 
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Đã thống nhất đề tài dự án và hoàn thành bản phác thảo kiến trúc hệ thống sơ bộ.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu rõ cách thức hoạt động của EC2, S3, RDS và vai trò của chúng trong mô hình web application.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Thiết lập môi trường làm việc kỹ thuật sẵn sàng cho giai đoạn thực thi (Coding/Deployment).
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+- Đã nắm bắt được luồng yêu cầu của dự án, xác định được các công nghệ cần sử dụng.
 

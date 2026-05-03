@@ -1,57 +1,46 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
+date: "`r Sys.Date()`"
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Initialize and configure an Amazon EC2 instance running on the Linux operating system.
+
+- Configure networking and security (Security Group) to allow web access.
+
+- Install and configure the Web Server environment (Apache) and programming language (PHP).
 
 ### Tasks to be carried out this week:
+
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| 1 | - Initialize Amazon EC2 instance (Amazon Linux 2023).<br> - Configure Key Pair for secure SSH access via MobaXterm. | 23/03/2026 | 23/03/2026 |
+| 2 | - Set up Security Group: Open ports 80 (HTTP), 443 (HTTPS), and 22 (SSH).<br> | 24/03/2026 | 24/03/2026 | |
+| 3 | - Use MobaXterm to connect to EC2 via SSH.<br> - Update the system.<br> - Install Apache Web Server (httpd). | 25/03/2026 | 25/03/2026 | |
+| 4 | - Install PHP and necessary modules: php-mysqlnd.<br> - Start and set up automatic execution for the httpd service.<br> | 26/03/2026 | 26/03/2026 | |
+| 5 | - Assign permissions to the /var/www/html directory <br> - Check via Public IP | 27/03/2026 | 27/03/2026 | |
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Successfully created a stable EC2 server on AWS infrastructure.
 
-* Successfully created and configured an AWS Free Tier account.
+- Managed server access and security effectively through:
+  - Security Group (Inbound/Outbound rules)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Key Pairing (Private/Public key)
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Completed Web Server environment setup
+  - Installed and operated Apache Web Server.
 
-* Used AWS CLI to perform basic operations such as:
+  - Configured the PHP execution environment to prepare for running the project source code.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Mastered remote server administration skills:
+  - Used the terminal via MobaXterm.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Controlled web directory access permissions.
+
+- Ensured the system could receive HTTP requests from the internet and process PHP code correctly.
