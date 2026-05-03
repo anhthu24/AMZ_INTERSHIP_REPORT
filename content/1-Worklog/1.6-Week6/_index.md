@@ -17,11 +17,8 @@ pre: " <b> 1.6. </b> "
 | No. | Task                                                                                                                                                                              | Start Date | Completion Date | Reference Material |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
 | 1   | - Check system logs to identify the cause of the "Database Connection Failed" error <br> <br> - Review the Endpoint, Username, and Password information in the configuration file | 13/04/2026 | 13/04/2026      |
-
 | 2 | - Upgrade the PHP version to match the new connection library <br> <br> - Install the php-mysqli extension | 14/04/2026 | 14/04/2026 | PHP Official Documentation |
-
 | 3 | - Check the Security Group's Inbound Rules to ensure the IP is not blocked <br><br> - Practice: Write a standalone PHP script to test the connection and authenticate access to RDS <br><br> - Handle errors related to character encoding (UTF-8) when displaying data <br> | 15/04/2026 | 16/04/2026 | Internal Debugging Guide |
-
 | 4 | - Test all CRUD (Create, Read, Update, Delete) functions on the web interface <br><br>- Ensure the application runs smoothly with the newly upgraded PHP version <br> | 17/04/2026 | 17/04/2026 | |
 
 ### Week 6 Achievements:
