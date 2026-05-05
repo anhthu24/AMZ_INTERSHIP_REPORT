@@ -19,6 +19,8 @@ chapter: false
 
 &emsp; **Major:** Information Technology
 
+&emsp; **Class:** DCT1202
+
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Internship Position:** FCAJ Cloud Intern

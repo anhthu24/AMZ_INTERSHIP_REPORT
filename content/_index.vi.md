@@ -19,6 +19,8 @@ chapter: false
 
 &emsp; **Ngành:** Công nghệ thông tin
 
+&emsp; **Lớp:** DCT1202
+
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
 &emsp; **Vị trí thực tập:** FCAJ Cloud Intern
