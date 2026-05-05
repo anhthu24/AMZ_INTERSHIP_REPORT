@@ -8,17 +8,17 @@ pre: " <b> 1.8. </b> "
 
 ### Mục tiêu tuần 8:
 
-- Perform final end-to-end testing before writing the report.
+- Thực hiện kiểm thử đầu cuối toàn diện trước khi viết báo cáo.
 
-- Systematize the entire AWS infrastructure deployment and configuration process.
+- Hệ thống hóa toàn bộ quy trình triển khai và cấu hình cơ sở hạ tầng AWS.
 
-- Complete the internship report and prepare the final presentation materials.
+- Hoàn thành báo cáo thực tập và chuẩn bị tài liệu thuyết trình cuối cùng.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | STT | Công việc                                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 1   | - Kiểm thử lần cuối toàn bộ luồng nghiệp vụ của dự án <br> <br> Rà soát bảo mật: Kiểm tra lại các IAM User, Security Group và tắt các dịch vụ không sử dụng               | 27/04/20265  | 27/04/2026      |                |
+| 1   | - Kiểm thử lần cuối toàn bộ luồng nghiệp vụ của dự án <br> <br> Rà soát bảo mật: Kiểm tra lại các IAM User, Security Group và tắt các dịch vụ không sử dụng               | 27/04/2026  | 27/04/2026      |                |
 | 2   | - Ghi chép chi tiết thông số cấu hình: EC2 Instance Type, RDS Endpoint, S3 Bucket Policy <br>- Chụp ảnh minh họa các bước thiết lập trên AWS Console để viết báo cáo <br> | 28/04/2026   | 28/04/2026      |                |
 | 3   | - Tổng hợp kết quả thực hiện so với mục tiêu ban đầu của chương trình FCAJ <br> - Viết báo cáo về các khó khăn đã gặp phải và cách giải quyết                             | 29/04/2026   | 29/04/2026      |                |
 | 5   | - Thực hành: Kiểm tra lại lần cuối báo cáo, các liên kết tài liệu <br>- Họp nhóm tổng kết dự án và chia sẻ bài học kinh nghiệm <br>                                       | 30/04/2026   | 01/05/2026      |                |

@@ -7,8 +7,12 @@ pre: " <b> 1.8. </b> "
 ---
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Perform final end-to-end testing before writing the report.
+
+- Systematize the entire AWS infrastructure deployment and configuration process.
+
+- Complete the internship report and prepare the final presentation materials.
+
 
 ### Tasks to be carried out this week:
 | No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
