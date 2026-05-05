@@ -12,7 +12,7 @@ pre: " <b> 1.8. </b> "
 
 - Hệ thống hóa toàn bộ quy trình triển khai và cấu hình cơ sở hạ tầng AWS.
 
-- Hoàn thành báo cáo thực tập và chuẩn bị tài liệu thuyết trình cuối cùng.
+- Hoàn thành báo cáo thực tập.
 
 ### Các công việc cần triển khai trong tuần này:
 

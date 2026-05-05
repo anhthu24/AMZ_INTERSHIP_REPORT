@@ -11,8 +11,7 @@ pre: " <b> 1.8. </b> "
 
 - Systematize the entire AWS infrastructure deployment and configuration process.
 
-- Complete the internship report and prepare the final presentation materials.
-
+- Complete the internship report.
 
 ### Tasks to be carried out this week:
 | No. | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
